@@ -10,17 +10,15 @@ pool:
   name: Default
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- script: echo CookBook Update
+  displayName: 'CookBook Update'
 
 - powershell: |
-   # Write your powershell commands here.
-   
    Write-Host "Hello World"
    
    # Use the environment variables input below to pass secret variables to this script.
-   
    cd c:\chef1
+   
    knife ssl check
    knife cookbook upload learn_chef_apache2 
    
