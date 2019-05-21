@@ -19,7 +19,7 @@ steps:
    # Use the environment variables input below to pass secret variables to this script.
    cd c:\chef1
    
-   knife ssl check
+   # knife ssl check
    knife cookbook upload learn_chef_apache2 
    
   displayName: 'PowerShell Script'
