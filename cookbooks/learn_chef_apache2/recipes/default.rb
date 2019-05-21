@@ -5,6 +5,6 @@
 # Copyright (c) 2016 The Authors, All Rights Reserved.
 
 file 'HelloWorld.txt' do
-      content 'hello world' 
+      content 'hello world 1' 
 end
 
