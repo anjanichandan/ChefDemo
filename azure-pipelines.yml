@@ -14,7 +14,7 @@ steps:
   displayName: 'CookBook Update'
 
 - powershell: |
-   Write-Host "Hello World"
+   Write-Host "Hello World1"
    
    # Use the environment variables input below to pass secret variables to this script.
    cd c:\chef1
